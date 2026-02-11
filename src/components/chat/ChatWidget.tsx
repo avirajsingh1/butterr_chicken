@@ -4,7 +4,7 @@ import { MessageCircle, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
-const ANAM_SHARE_TOKEN = "83d9f32d-b89d-4591-be65-347c6a9af684";
+const ANAM_SHARE_TOKEN = "6HjLY4r6JnxJG2W-mCjGx";
 
 export default function ChatWidget() {
   const [open, setOpen] = useState(false);
@@ -57,7 +57,7 @@ export default function ChatWidget() {
 
             {/* Anam iframe */}
             <iframe
-              src={`https://lab.anam.ai/frame/${ANAM_SHARE_TOKEN}`}
+              src={`https://lab.anam.ai/share/${ANAM_SHARE_TOKEN}`}
               className="flex-1 border-0"
               allow="microphone; camera"
               title="Anna — Rheinstadt City Assistant"
