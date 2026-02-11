@@ -6,12 +6,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import Layout from "@/components/layout/Layout";
 
 const services = [
-  { icon: Building2, title: "Registration & Permits", desc: "Register your address, apply for permits" },
-  { icon: Globe2, title: "Immigration Services", desc: "Visa, residence permits, integration" },
-  { icon: GraduationCap, title: "Student Services", desc: "Enrollment, housing, student life" },
-  { icon: Bus, title: "Public Transport", desc: "Routes, tickets, schedules" },
-  { icon: CalendarDays, title: "Events & Culture", desc: "Festivals, museums, concerts" },
-  { icon: Trash2, title: "Waste & Recycling", desc: "Collection schedules, disposal" },
+  { icon: Building2, title: "Registration & Permits", desc: "Register your address, apply for permits", color: "from-blue-500 to-blue-600", bg: "bg-blue-50", text: "text-blue-600" },
+  { icon: Globe2, title: "Immigration Services", desc: "Visa, residence permits, integration", color: "from-emerald-500 to-teal-600", bg: "bg-emerald-50", text: "text-emerald-600" },
+  { icon: GraduationCap, title: "Student Services", desc: "Enrollment, housing, student life", color: "from-violet-500 to-purple-600", bg: "bg-violet-50", text: "text-violet-600" },
+  { icon: Bus, title: "Public Transport", desc: "Routes, tickets, schedules", color: "from-orange-500 to-amber-600", bg: "bg-orange-50", text: "text-orange-600" },
+  { icon: CalendarDays, title: "Events & Culture", desc: "Festivals, museums, concerts", color: "from-pink-500 to-rose-600", bg: "bg-pink-50", text: "text-pink-600" },
+  { icon: Trash2, title: "Waste & Recycling", desc: "Collection schedules, disposal", color: "from-cyan-500 to-sky-600", bg: "bg-cyan-50", text: "text-cyan-600" },
 ];
 
 const events = [
@@ -67,17 +67,20 @@ export default function Index() {
       <section className="container py-10">
         <h2 className="font-display text-3xl font-bold text-center mb-2">City Services</h2>
         <p className="text-center text-muted-foreground mb-10">Quick access to the services you need</p>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
-            <Card key={s.title} className="group cursor-default transition-shadow hover:shadow-md">
-              <CardContent className="flex items-start gap-4 p-5">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                  <s.icon className="h-5 w-5" />
+            <Card key={s.title} className="group cursor-default overflow-hidden border-0 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <CardContent className="p-0">
+                <div className="flex items-start gap-4 p-6">
+                  <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br ${s.color} text-white shadow-md`}>
+                    <s.icon className="h-6 w-6" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold font-sans">{s.title}</h3>
+                    <p className="mt-1 text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold font-sans text-sm">{s.title}</h3>
-                  <p className="mt-1 text-xs text-muted-foreground">{s.desc}</p>
-                </div>
+                <div className={`h-1 w-full bg-gradient-to-r ${s.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
               </CardContent>
             </Card>
           ))}
