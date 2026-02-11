@@ -1,7 +1,7 @@
 const responses: Record<string, string> = {
-  register: `## Registering Your Residence in Dortmund
+  register: `## Registering Your Residence in Rheinstadt
 
-When moving to Dortmund, you must register your address within **14 days** of moving in.
+When moving to Rheinstadt, you must register your address within **14 days** of moving in.
 
 **What you need:**
 - Valid ID or passport
@@ -9,13 +9,13 @@ When moving to Dortmund, you must register your address within **14 days** of mo
 - Completed registration form
 
 **Where to go:**
-Visit any *Bürgerdienste* (Citizens' Services) office. The main office is at **Südwall 2-4, 44137 Dortmund**.
+Visit any *Bürgerdienste* (Citizens' Services) office. The main office is at **Rathausplatz 1, 40100 Rheinstadt**.
 
-**Tip:** Book an appointment online at [dortmund.de](https://www.dortmund.de) to avoid long wait times.`,
+**Tip:** Book an appointment online at [rheinstadt.de](https://www.rheinstadt.de) to avoid long wait times.`,
 
   student: `## Welcome, International Student! 🎓
 
-Here's your quick-start guide for Dortmund:
+Here's your quick-start guide for Rheinstadt:
 
 1. **Register your address** at Bürgerdienste within 14 days
 2. **Open a bank account** — most students use Sparkasse or N26
@@ -24,22 +24,22 @@ Here's your quick-start guide for Dortmund:
 5. **Apply for a residence permit** at the Ausländerbehörde (Immigration Office)
 
 **Helpful locations:**
-- TU Dortmund International Office: Emil-Figge-Str. 61
-- FH Dortmund International Office: Sonnenstr. 96
+- Universität Rheinstadt International Office: Universitätsstr. 61
+- FH Rheinstadt International Office: Bergstr. 96
 
-The Semesterticket in your student ID covers all public transport in NRW!`,
+The Semesterticket in your student ID covers all public transport in the region!`,
 
   visa: `## Visa & Residence Permits
 
-**EU/EEA citizens** can live and work in Dortmund freely — just register your address.
+**EU/EEA citizens** can live and work in Rheinstadt freely — just register your address.
 
 **Non-EU citizens** typically need:
 - A **national visa** (applied for at the German embassy in your home country)
 - A **residence permit** (*Aufenthaltserlaubnis*) — apply at the Ausländerbehörde after arrival
 
 **Ausländerbehörde (Immigration Office):**
-📍 Leopoldstraße 50-58, 44147 Dortmund
-📞 +49 231 50-24949
+📍 Schillerstraße 50-58, 40102 Rheinstadt
+📞 +49 211 50-24949
 
 **Documents typically needed:**
 - Passport with visa
@@ -48,59 +48,59 @@ The Semesterticket in your student ID covers all public transport in NRW!`,
 - Proof of financial means
 - Rental contract`,
 
-  event: `## Upcoming Events in Dortmund 🎉
+  event: `## Upcoming Events in Rheinstadt 🎉
 
 Here are some highlights:
 
-- **Dortmunder Weihnachtsmarkt** — One of Germany's largest Christmas markets (Nov–Dec)
-- **Juicy Beats Festival** — Music festival in Westfalenpark (July)
-- **DORTBUNT!** — City festival celebrating diversity (May)
+- **Rheinstädter Weihnachtsmarkt** — One of the region's largest Christmas markets (Nov–Dec)
+- **Parkfest** — Music festival in Stadtpark (July)
+- **RHEINBUNT!** — City festival celebrating diversity (May)
 - **Museum Night** — All museums open late with special programs (September)
-- **BVB Match Days** — Experience the famous Signal Iduna Park atmosphere
+- **FC Rheinstadt Match Days** — Experience the stadium atmosphere
 
 Check the Events page for the full calendar, or ask me about specific types of events!`,
 
-  transport: `## Public Transport in Dortmund 🚌
+  transport: `## Public Transport in Rheinstadt 🚌
 
-Dortmund has an excellent public transport network operated by **DSW21**:
+Rheinstadt has an excellent public transport network:
 
-- **U-Bahn** (subway) — 8 lines covering the city
-- **S-Bahn** — Regional trains connecting to the Ruhr area
+- **U-Bahn** (subway) — 6 lines covering the city
+- **S-Bahn** — Regional trains connecting to neighboring cities
 - **Buses** — Extensive bus network
-- **H-Bahn** — Unique suspended monorail at TU Dortmund
+- **Tram** — Modern tram lines through the city center
 
 **Tickets:**
 - Single ticket: ~€2.90
 - Day ticket: ~€7.70
 - Monthly pass: ~€95
-- **Students:** Semesterticket covers all of NRW!
+- **Students:** Semesterticket covers regional transport!
 
-Download the **DSW21 app** for real-time schedules and mobile tickets.`,
+Download the **RVR app** for real-time schedules and mobile tickets.`,
 
   waste: `## Waste Management & Recycling ♻️
 
-Dortmund uses a color-coded bin system:
+Rheinstadt uses a color-coded bin system:
 
 - **🔵 Blue bin** — Paper and cardboard
 - **🟡 Yellow bin/bag** — Packaging (plastic, metal, cartons)
 - **🟤 Brown bin** — Organic/food waste
 - **⚫ Black bin** — Residual waste
 
-**Bulky waste:** Schedule a free pickup at EDG (max 2x per year)
+**Bulky waste:** Schedule a free pickup (max 2x per year)
 **Hazardous waste:** Bring to recycling centers (Wertstoffhöfe)
 
-**EDG Contact:** +49 231 9111-111 or [edg.de](https://www.edg.de)
+**City Waste Services:** +49 211 9111-111
 
-Collection schedules vary by district — check EDG's online calendar for your address.`,
+Collection schedules vary by district — check the online calendar for your address.`,
 };
 
-const defaultResponse = `I'd be happy to help you with information about Dortmund! I can assist with:
+const defaultResponse = `I'd be happy to help you with information about Rheinstadt! I can assist with:
 
 - 🏛️ **City services** — registration, permits, taxes
 - 🌍 **Immigration** — visa, residence permits, integration
 - 🎓 **Student life** — enrollment, housing, tips
 - 🎉 **Events** — what's happening in the city
-- 🚌 **Transport** — getting around Dortmund
+- 🚌 **Transport** — getting around Rheinstadt
 - ♻️ **Waste management** — recycling and disposal
 
 What would you like to know about?`;

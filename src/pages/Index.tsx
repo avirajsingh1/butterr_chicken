@@ -25,12 +25,12 @@ export default function Index() {
     <Layout>
       {/* Hero */}
       <section className="relative overflow-hidden text-white">
-        <img src={heroBg} alt="Dortmund cityscape with parks and stadium" className="absolute inset-0 h-full w-full object-cover" />
+        <img src={heroBg} alt="Rheinstadt cityscape with parks" className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
         <div className="container relative py-24 md:py-32">
           <div className="max-w-2xl">
             <h1 className="font-display text-4xl font-bold leading-tight md:text-5xl lg:text-6xl drop-shadow-lg">
-              Welcome to Dortmund
+              Welcome to Rheinstadt
             </h1>
             <p className="mt-4 text-lg opacity-90 leading-relaxed md:text-xl drop-shadow">
               Your digital gateway to city services, events, and everything you need as a resident, newcomer, or visitor.
@@ -55,7 +55,7 @@ export default function Index() {
         <div className="rounded-lg border border-accent bg-accent/10 px-5 py-4 text-center">
           <p className="text-sm font-semibold text-accent-foreground">⚠️ Disclaimer</p>
           <p className="mt-1 text-xs text-muted-foreground">
-            This is <strong>not</strong> an official City of Dortmund website. It is a mockup created for a hackathon challenge to demonstrate AI-powered city services.
+            This is <strong>not</strong> an official city services website. It is a mockup created for a hackathon challenge to demonstrate AI-powered city services.
           </p>
         </div>
       </div>
@@ -87,7 +87,7 @@ export default function Index() {
           <div className="flex items-center justify-between mb-8">
             <div>
               <h2 className="font-display text-3xl font-bold">Upcoming Events</h2>
-              <p className="text-muted-foreground mt-1">What's happening in Dortmund</p>
+              <p className="text-muted-foreground mt-1">What's happening in Rheinstadt</p>
             </div>
             <Button asChild variant="outline">
               <Link to="/events">View All</Link>

@@ -32,7 +32,7 @@ export default function ChatPage() {
         <div className="flex items-center justify-between border-b py-4">
           <div>
             <h1 className="font-display text-2xl font-bold">Ask Anna</h1>
-            <p className="text-sm text-muted-foreground">Ask anything about life in Dortmund</p>
+            <p className="text-sm text-muted-foreground">Ask anything about life in Rheinstadt</p>
           </div>
           <Button variant="outline" size="sm" onClick={reset}>
             <RotateCcw className="mr-2 h-4 w-4" /> New Chat
@@ -49,7 +49,7 @@ export default function ChatPage() {
               <div>
                 <h2 className="font-display text-xl font-bold">Hello! 👋</h2>
                 <p className="mt-2 text-muted-foreground max-w-md">
-                  I'm Anna, your Dortmund city assistant. I can help with city services, immigration, student life, events, transport, and more.
+                  I'm Anna, your Rheinstadt city assistant. I can help with city services, immigration, student life, events, transport, and more.
                 </p>
               </div>
               <div className="flex flex-wrap justify-center gap-2 max-w-lg">
@@ -69,7 +69,7 @@ export default function ChatPage() {
           )}
         </div>
 
-        <ChatInput onSend={sendMessage} disabled={isStreaming} placeholder="Ask about Dortmund..." />
+        <ChatInput onSend={sendMessage} disabled={isStreaming} placeholder="Ask about Rheinstadt..." />
       </div>
     </Layout>
   );

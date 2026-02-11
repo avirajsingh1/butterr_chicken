@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container py-12">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="mb-3 font-display text-lg font-bold">City of Dortmund</h3>
+            <h3 className="mb-3 font-display text-lg font-bold">City of Rheinstadt</h3>
             <p className="text-sm opacity-80 leading-relaxed">
               Official portal for city services, information, and digital assistance for all residents and visitors.
             </p>
@@ -25,7 +25,7 @@ export default function Footer() {
             <h4 className="mb-3 font-semibold text-sm uppercase tracking-wider opacity-70">Contact</h4>
             <ul className="space-y-2 text-sm opacity-80">
               <li className="flex items-center gap-2"><Phone className="h-3.5 w-3.5" /> +49 231 50-0</li>
-              <li className="flex items-center gap-2"><Mail className="h-3.5 w-3.5" /> info@dortmund.de</li>
+              <li className="flex items-center gap-2"><Mail className="h-3.5 w-3.5" /> info@rheinstadt.de</li>
               <li className="flex items-center gap-2"><MapPin className="h-3.5 w-3.5" /> Friedensplatz 1, 44135</li>
             </ul>
           </div>
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-primary-foreground/10 pt-6 text-center text-xs opacity-60">
-          © 2026 City of Dortmund. All rights reserved.
+          © 2026 City of Rheinstadt. All rights reserved.
         </div>
       </div>
     </footer>
