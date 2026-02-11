@@ -38,14 +38,14 @@ It strictly uses the latest rules, guidelines and regulations pertaining to the 
 Technology Stack
 ### Current Implementation
 
-Voice Agent: Anam
-Web Frontend: Lovable
+Voice Agent: [Anam](https://anam.ai/)
+Web Frontend: [Lovable](https://lovable.dev/)
 
 ### Hackathon Prototype - The original idea and implementation 
-Speech and Conversational AI: ElevenLabs (real-time dialogue processing)
-Avatar and Assistant Infrastructure: Anam
-Deployment and Prototyping: bolt.new
-Collaborative Design and System Mapping: Miro
+Speech and Conversational AI: [ElevenLabs](https://elevenlabs.io/) (real-time dialogue processing)
+Avatar and Assistant Infrastructure: [Anam](https://anam.ai/)
+Deployment and Prototyping: [bolt.new](https://bolt.new/)
+Collaborative Design and System Mapping: [Miro](https://miro.com/)
 Knowledge Base (based on the use case): German Government Visa, Residence Permits, Citizens Services
 
 ## Key Capabilities
