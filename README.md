@@ -75,6 +75,3 @@ This repository represents the post-hackathon of the Anna system. It offers a sc
 
 
 
-
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
