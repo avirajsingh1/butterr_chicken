@@ -15,9 +15,9 @@ const services = [
 ];
 
 const events = [
-  { date: "Mar 15", title: "International Food Festival", location: "Westfalenpark" },
-  { date: "Mar 22", title: "City Administration Open Day", location: "Rathaus" },
-  { date: "Apr 5", title: "Spring Market", location: "Alter Markt" },
+  { date: "Mar 15", title: "International Food Festival", location: "Westfalenpark", color: "from-orange-500 to-red-500", emoji: "🍜" },
+  { date: "Mar 22", title: "City Administration Open Day", location: "Rathaus", color: "from-blue-500 to-indigo-500", emoji: "🏛️" },
+  { date: "Apr 5", title: "Spring Market", location: "Alter Markt", color: "from-emerald-500 to-green-500", emoji: "🌷" },
 ];
 
 export default function Index() {
@@ -99,15 +99,20 @@ export default function Index() {
               <Link to="/events">View All</Link>
             </Button>
           </div>
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-3">
             {events.map((e) => (
-              <Card key={e.title}>
-                <CardContent className="p-5">
-                  <span className="inline-block rounded-full bg-accent/20 px-3 py-1 text-xs font-semibold text-accent-foreground mb-3">
-                    {e.date}
-                  </span>
-                  <h3 className="font-semibold font-sans">{e.title}</h3>
-                  <p className="text-xs text-muted-foreground mt-1">📍 {e.location}</p>
+              <Card key={e.title} className="group cursor-default overflow-hidden border-0 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+                <CardContent className="p-0">
+                  <div className={`flex items-center justify-center bg-gradient-to-br ${e.color} py-5 text-white`}>
+                    <span className="text-4xl">{e.emoji}</span>
+                  </div>
+                  <div className="p-5">
+                    <span className="inline-block rounded-full bg-secondary px-3 py-1 text-xs font-semibold text-secondary-foreground mb-2">
+                      {e.date}
+                    </span>
+                    <h3 className="font-semibold font-sans">{e.title}</h3>
+                    <p className="text-sm text-muted-foreground mt-1 flex items-center gap-1">📍 {e.location}</p>
+                  </div>
                 </CardContent>
               </Card>
             ))}
