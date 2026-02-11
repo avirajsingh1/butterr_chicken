@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout";
 
-const ANAM_SHARE_TOKEN = "6HjLY4r6JnxJG2W-mCjGx";
+const ANAM_FRAME_URL = "https://lab.anam.ai/frame/1l71MZeP6pYr4qjSt8l_6";
 
 export default function ChatPage() {
   return (
@@ -17,9 +17,9 @@ export default function ChatPage() {
         {/* Anam Embed */}
         <div className="flex-1 py-4">
           <iframe
-            src={`https://lab.anam.ai/frame/${ANAM_SHARE_TOKEN}`}
+            src={ANAM_FRAME_URL}
             className="h-full w-full rounded-xl border-0 shadow-lg"
-            allow="microphone; camera"
+            allow="microphone"
             title="Anna — Rheinstadt City Assistant"
           />
         </div>
