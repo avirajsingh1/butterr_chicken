@@ -31,7 +31,7 @@ export default function ChatPage() {
         {/* Header */}
         <div className="flex items-center justify-between border-b py-4">
           <div>
-            <h1 className="font-display text-2xl font-bold">Dortmund Digital Assistant</h1>
+            <h1 className="font-display text-2xl font-bold">Ask Anna</h1>
             <p className="text-sm text-muted-foreground">Ask anything about life in Dortmund</p>
           </div>
           <Button variant="outline" size="sm" onClick={reset}>
@@ -49,7 +49,7 @@ export default function ChatPage() {
               <div>
                 <h2 className="font-display text-xl font-bold">Hello! 👋</h2>
                 <p className="mt-2 text-muted-foreground max-w-md">
-                  I'm your Dortmund Digital Assistant. I can help with city services, immigration, student life, events, transport, and more.
+                  I'm Anna, your Dortmund city assistant. I can help with city services, immigration, student life, events, transport, and more.
                 </p>
               </div>
               <div className="flex flex-wrap justify-center gap-2 max-w-lg">

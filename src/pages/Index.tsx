@@ -36,7 +36,7 @@ export default function Index() {
               <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold">
                 <Link to="/chat">
                   <MessageCircle className="mr-2 h-5 w-5" />
-                  Ask our Digital Assistant
+                  Ask Anna
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
@@ -102,7 +102,7 @@ export default function Index() {
         <div className="mx-auto max-w-lg">
           <h2 className="font-display text-3xl font-bold">Need Help?</h2>
           <p className="mt-3 text-muted-foreground">
-            Our Digital Assistant is available 24/7 to answer your questions about city services, immigration, events, and more.
+            Anna is available 24/7 to answer your questions about city services, immigration, events, and more.
           </p>
           <Button asChild size="lg" className="mt-6 bg-accent text-accent-foreground hover:bg-accent/90 font-semibold">
             <Link to="/chat">
