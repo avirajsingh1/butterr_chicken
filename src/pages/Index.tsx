@@ -42,8 +42,11 @@ export default function Index() {
                   Ask Anna
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10">
-                <Link to="/services">Browse Services</Link>
+              <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold">
+                <Link to="/services">
+                  <Building2 className="mr-2 h-5 w-5" />
+                  Browse Services
+                </Link>
               </Button>
             </div>
           </div>
