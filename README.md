@@ -75,7 +75,7 @@ Public-sector knowledge dissemination and citizen guidance
 
 This repository represents the post-hackathon of the Anna system. It offers a scope for ongoing development focuses on improving robustness, extensibility, and readiness for real-world public-sector deployment. A
 
-## Important Note: Since the bot is very chaty, I have restricted the tokens usage for the application so that I do not get some unexpected spurises for my subscription.
+### Important Note: Since the bot is very chaty, I have restricted the tokens usage for the application so that I do not get some unexpected spurises for my subscription or I may have ended my subscription.
 
 
 
