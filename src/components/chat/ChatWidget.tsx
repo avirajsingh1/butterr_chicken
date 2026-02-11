@@ -51,7 +51,7 @@ export default function ChatWidget() {
               <img
                 src={AVATAR_URL}
                 alt="Anna AI Assistant"
-                className="relative h-14 w-14 rounded-full border-2 border-white/40 bg-white object-cover group-hover:scale-110 transition-transform duration-300"
+                className="relative h-[72px] w-[72px] rounded-full border-[3px] border-white object-cover group-hover:scale-110 transition-transform duration-300"
               />
 
               {/* Online indicator */}
