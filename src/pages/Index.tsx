@@ -50,8 +50,18 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Disclaimer */}
+      <div className="container pt-16 pb-2">
+        <div className="rounded-lg border border-accent bg-accent/10 px-5 py-4 text-center">
+          <p className="text-sm font-semibold text-accent-foreground">⚠️ Disclaimer</p>
+          <p className="mt-1 text-xs text-muted-foreground">
+            This is <strong>not</strong> an official City of Dortmund website. It is a mockup created for a hackathon challenge to demonstrate AI-powered city services.
+          </p>
+        </div>
+      </div>
+
       {/* Service Cards */}
-      <section className="container py-16">
+      <section className="container py-10">
         <h2 className="font-display text-3xl font-bold text-center mb-2">City Services</h2>
         <p className="text-center text-muted-foreground mb-10">Quick access to the services you need</p>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
