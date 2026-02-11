@@ -6,8 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const ANAM_FRAME_URL = "https://lab.anam.ai/frame/1l71MZeP6pYr4qjSt8l_6";
 
-const AVATAR_URL =
-  "https://api.dicebear.com/9.x/avataaars/svg?seed=Anna&backgroundColor=b6e3f4&mouth=smile&eyes=happy&eyebrows=default&top=longHairStraight&hairColor=2c1b18&skinColor=f8d25c&clotheColor=3c4f5c";
+const AVATAR_URL = "https://lab.anam.ai/persona_thumbnails/astrid_desk.png";
 
 export default function ChatWidget() {
   const [open, setOpen] = useState(false);
