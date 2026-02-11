@@ -2,7 +2,7 @@
 
 Anna — Virtual Assistant for Public-Sector Services
 
-**URL**: https://butterrchicken.lovable.app/
+**URL**: [Project Link](https://butterrchicken.lovable.app/)
 
 ## Project info
 
@@ -10,7 +10,7 @@ Anna is a scalable, multilingual virtual assistant designed for government and p
 
 This project was awarded First Place at the ElevenLabs Worldwide Hackathon (Amsterdam edition), a global, time-constrained innovation challenge focused on developing impactful and scalable conversational AI solutions.
 
-Problem Statement
+### Problem Statement
 
 Public institutions face increasing demand for timely, accurate, and multilingual citizen support. Existing service channels are often constrained by limited operating hours, language barriers, and high administrative overhead. Anna addresses these challenges by offering an automated, conversational interface capable of handling high volumes of inquiries while maintaining consistent service quality.
 
@@ -36,18 +36,19 @@ It strictly uses the latest rules, guidelines and regulations pertaining to the 
 ## What technologies are used for this project?
 
 Technology Stack
-Current Implementation
+### Current Implementation
 
 Voice Agent: Anam
 Web Frontend: Lovable
 
-Hackathon Prototype
+### Hackathon Prototype - The original idea and implementation 
 Speech and Conversational AI: ElevenLabs (real-time dialogue processing)
 Avatar and Assistant Infrastructure: Anam
 Deployment and Prototyping: bolt.new
 Collaborative Design and System Mapping: Miro
+Knowledge Base (based on the use case): German Government Visa, Residence Permits, Citizens Services
 
-##Key Capabilities
+## Key Capabilities
 
 Multilingual conversational support
 
@@ -57,7 +58,7 @@ Domain adaptability for diverse public-service workflows
 
 Scalable architecture suitable for municipal and national deployments
 
-Use Cases
+## Use Cases
 
 Immigration and visa information services
 
@@ -66,11 +67,11 @@ Municipal regulations and procedures
 Public-sector knowledge dissemination and citizen guidance
 
 
-Project Status
+## Project Status
 
 This repository represents the post-hackathon of the Anna system. It offers a scope for ongoing development focuses on improving robustness, extensibility, and readiness for real-world public-sector deployment. A
 
-##Important Note: Since the bot is very chaty, I have restricted the tokens usage for the application so that I do not get some unexpected spurises for my subscription.
+## Important Note: Since the bot is very chaty, I have restricted the tokens usage for the application so that I do not get some unexpected spurises for my subscription.
 
 
 
