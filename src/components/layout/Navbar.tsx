@@ -34,10 +34,10 @@ export default function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <div className="flex h-9 w-9 items-center justify-center rounded-full bg-accent text-accent-foreground font-bold text-sm">
-            DO
+            RS
           </div>
           <div className="leading-tight">
-            <span className="font-display text-lg font-bold">Dortmund</span>
+            <span className="font-display text-lg font-bold">Rheinstadt</span>
             <span className="ml-1 hidden text-xs opacity-80 sm:inline">City Portal</span>
           </div>
         </Link>

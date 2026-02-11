@@ -6,16 +6,16 @@ export default function About() {
   return (
     <Layout>
       <div className="container py-12">
-        <h1 className="font-display text-4xl font-bold mb-6">About Dortmund</h1>
+        <h1 className="font-display text-4xl font-bold mb-6">About Rheinstadt</h1>
 
         <div className="grid gap-8 lg:grid-cols-3">
           <div className="lg:col-span-2 space-y-6">
             <section>
               <h2 className="font-display text-2xl font-bold mb-3">Our City</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Dortmund is the largest city in the Ruhr area and the eighth-largest city in Germany with over 600,000 residents. 
-                Once known for its steel industry and coal mining, Dortmund has transformed into a modern hub for technology, 
-                education, and culture. Home to TU Dortmund and Fachhochschule Dortmund, the city welcomes thousands of 
+                 Rheinstadt is a vibrant city in western Germany with over 500,000 residents. 
+                Once known for its industrial heritage, Rheinstadt has transformed into a modern hub for technology, 
+                education, and culture. Home to two major universities, the city welcomes thousands of 
                 international students every year.
               </p>
             </section>
@@ -23,7 +23,7 @@ export default function About() {
             <section>
               <h2 className="font-display text-2xl font-bold mb-3">City Administration</h2>
               <p className="text-muted-foreground leading-relaxed">
-                The City of Dortmund administration serves residents through various departments and citizen service offices 
+                The City of Rheinstadt administration serves residents through various departments and citizen service offices 
                 (*Bürgerdienste*) located throughout the city. Our digital portal and AI assistant aim to make city services 
                 more accessible to everyone, including international residents.
               </p>
@@ -34,7 +34,7 @@ export default function About() {
               <p className="text-muted-foreground leading-relaxed">
                 As part of our commitment to digital innovation, we've introduced Anna — an AI-powered 
                 assistant to help residents find information about city services, immigration procedures, events, and daily life in 
-                Dortmund. Available 24/7 in multiple languages.
+                Rheinstadt. Available 24/7 in multiple languages.
               </p>
             </section>
           </div>
@@ -46,7 +46,7 @@ export default function About() {
                 <ul className="space-y-3 text-sm text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <MapPin className="h-4 w-4 mt-0.5 text-primary shrink-0" />
-                    <span>Friedensplatz 1<br />44135 Dortmund</span>
+                    <span>Rathausplatz 1<br />40100 Rheinstadt</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Phone className="h-4 w-4 text-primary shrink-0" />
@@ -54,7 +54,7 @@ export default function About() {
                   </li>
                   <li className="flex items-center gap-3">
                     <Mail className="h-4 w-4 text-primary shrink-0" />
-                    <span>info@dortmund.de</span>
+                    <span>info@rheinstadt.de</span>
                   </li>
                 </ul>
               </CardContent>

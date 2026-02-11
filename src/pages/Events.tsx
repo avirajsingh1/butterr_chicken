@@ -10,7 +10,7 @@ const events = [
   { date: "Mar 22, 2026", title: "City Administration Open Day", location: "Rathaus", category: "Community", desc: "Tour city hall, meet officials, and learn about municipal services." },
   { date: "Apr 5, 2026", title: "Spring Market", location: "Alter Markt", category: "Markets", desc: "Seasonal market with local produce, crafts, and street food." },
   { date: "Apr 18, 2026", title: "BVB Fan Day", location: "Signal Iduna Park", category: "Sports", desc: "Meet the players, stadium tours, and family activities." },
-  { date: "May 2, 2026", title: "DORTBUNT!", location: "City Center", category: "Culture", desc: "Dortmund's festival celebrating diversity with stages across the city." },
+  { date: "May 2, 2026", title: "RHEINBUNT!", location: "City Center", category: "Culture", desc: "Rheinstadt's festival celebrating diversity with stages across the city." },
   { date: "May 16, 2026", title: "Museum Night", location: "Various Museums", category: "Culture", desc: "All museums open until midnight with special exhibitions and performances." },
   { date: "Jun 7, 2026", title: "Westfalenpark Summer Concert", location: "Westfalenpark", category: "Music", desc: "Open-air concert series featuring local and international artists." },
   { date: "Jul 11, 2026", title: "Juicy Beats Festival", location: "Westfalenpark", category: "Music", desc: "One of Germany's biggest indie and electronic music festivals." },
@@ -21,7 +21,7 @@ export default function Events() {
     <Layout>
       <div className="container py-12">
         <h1 className="font-display text-4xl font-bold mb-2">Events</h1>
-        <p className="text-muted-foreground mb-6">Discover what's happening in Dortmund</p>
+        <p className="text-muted-foreground mb-6">Discover what's happening in Rheinstadt</p>
 
         {/* Filters (decorative) */}
         <div className="flex flex-wrap gap-2 mb-8">

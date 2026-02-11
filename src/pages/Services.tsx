@@ -24,7 +24,7 @@ const categories = [
   {
     title: "For Students",
     items: [
-      { icon: GraduationCap, title: "University Enrollment", desc: "Steps to enroll at Dortmund universities" },
+      { icon: GraduationCap, title: "University Enrollment", desc: "Steps to enroll at Rheinstadt universities" },
       { icon: Home, title: "Student Housing", desc: "Dormitories and housing assistance" },
       { icon: Baby, title: "Student Jobs", desc: "Work regulations and job resources" },
       { icon: Building2, title: "Student Services", desc: "AStA, Studierendenwerk, counseling" },
