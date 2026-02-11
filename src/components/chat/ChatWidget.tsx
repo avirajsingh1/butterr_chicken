@@ -1,10 +1,13 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import { MessageCircle, X, Sparkles } from "lucide-react";
+import { X, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 const ANAM_FRAME_URL = "https://lab.anam.ai/frame/1l71MZeP6pYr4qjSt8l_6";
+
+const AVATAR_URL =
+  "https://api.dicebear.com/9.x/avataaars/svg?seed=Anna&backgroundColor=b6e3f4&mouth=smile&eyes=happy&eyebrows=default&top=longHairStraight&hairColor=2c1b18&skinColor=f8d25c&clotheColor=3c4f5c";
 
 export default function ChatWidget() {
   const [open, setOpen] = useState(false);
@@ -21,28 +24,39 @@ export default function ChatWidget() {
           <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
             {/* Tooltip label */}
             <motion.div
-              initial={{ opacity: 0, x: 10 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 10 }}
-              transition={{ delay: 1, duration: 0.4 }}
-              className="flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-primary-foreground shadow-lg"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 8 }}
+              transition={{ delay: 0.8, duration: 0.4 }}
+              className="flex items-center gap-2 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 px-5 py-2.5 text-white shadow-lg cursor-pointer"
+              onClick={() => setOpen(true)}
             >
-              <Sparkles className="h-4 w-4 text-accent" />
-              <span className="text-sm font-semibold">Talk to Anna — AI Assistant</span>
+              <Sparkles className="h-4 w-4 animate-pulse" />
+              <span className="text-sm font-bold tracking-wide">Talk to Anna — AI Assistant</span>
             </motion.div>
 
-            {/* FAB with pulse ring */}
+            {/* Avatar FAB */}
             <motion.button
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0 }}
               onClick={() => setOpen(true)}
-              className="relative flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 text-white shadow-xl hover:shadow-2xl transition-shadow"
+              className="group relative flex h-20 w-20 items-center justify-center rounded-full shadow-2xl hover:shadow-[0_0_40px_rgba(99,102,241,0.5)] transition-all duration-300"
             >
-              {/* Pulse ring */}
-              <span className="absolute inset-0 rounded-full bg-blue-500 animate-ping opacity-30" />
-              <span className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 animate-pulse opacity-20" />
-              <MessageCircle className="relative h-7 w-7" />
+              {/* Animated rings */}
+              <span className="absolute inset-[-6px] rounded-full border-[3px] border-blue-400 animate-ping opacity-20" />
+              <span className="absolute inset-[-4px] rounded-full border-2 border-indigo-400 animate-pulse opacity-40" />
+              <span className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 opacity-100" />
+
+              {/* Avatar image */}
+              <img
+                src={AVATAR_URL}
+                alt="Anna AI Assistant"
+                className="relative h-14 w-14 rounded-full border-2 border-white/40 bg-white object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+
+              {/* Online indicator */}
+              <span className="absolute bottom-1 right-1 h-4 w-4 rounded-full border-2 border-white bg-green-400 animate-pulse" />
             </motion.button>
           </div>
         )}
