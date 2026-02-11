@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MessageCircle, Building2, GraduationCap, Globe2, CalendarDays, Bus, Trash2 } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Layout from "@/components/layout/Layout";
@@ -23,13 +24,15 @@ export default function Index() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="relative bg-primary text-primary-foreground">
-        <div className="container py-20 md:py-28">
+      <section className="relative overflow-hidden text-white">
+        <img src={heroBg} alt="Dortmund cityscape with parks and stadium" className="absolute inset-0 h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+        <div className="container relative py-24 md:py-32">
           <div className="max-w-2xl">
-            <h1 className="font-display text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
+            <h1 className="font-display text-4xl font-bold leading-tight md:text-5xl lg:text-6xl drop-shadow-lg">
               Welcome to Dortmund
             </h1>
-            <p className="mt-4 text-lg opacity-80 leading-relaxed md:text-xl">
+            <p className="mt-4 text-lg opacity-90 leading-relaxed md:text-xl drop-shadow">
               Your digital gateway to city services, events, and everything you need as a resident, newcomer, or visitor.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -39,13 +42,12 @@ export default function Index() {
                   Ask Anna
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+              <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:bg-white/10">
                 <Link to="/services">Browse Services</Link>
               </Button>
             </div>
           </div>
         </div>
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDE4YzYuNjI3IDAgMTIgNS4zNzMgMTIgMTJzLTUuMzczIDEyLTEyIDEyLTEyLTUuMzczLTEyLTEyIDUuMzczLTEyIDEyLTEyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
       </section>
 
       {/* Service Cards */}
