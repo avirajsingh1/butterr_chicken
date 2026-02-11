@@ -1,19 +1,32 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, MessageCircle, Globe } from "lucide-react";
+import { Menu, X, MessageCircle, Globe, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/utils";
+
+const languages = [
+  { code: "EN", label: "English", flag: "🇬🇧" },
+  { code: "DE", label: "Deutsch", flag: "🇩🇪" },
+  { code: "TR", label: "Türkçe", flag: "🇹🇷" },
+  { code: "AR", label: "العربية", flag: "🇸🇦" },
+  { code: "UK", label: "Українська", flag: "🇺🇦" },
+  { code: "PL", label: "Polski", flag: "🇵🇱" },
+  { code: "FR", label: "Français", flag: "🇫🇷" },
+  { code: "ES", label: "Español", flag: "🇪🇸" },
+];
 
 const navLinks = [
   { to: "/", label: "Home" },
   { to: "/services", label: "Services" },
   { to: "/events", label: "Events" },
   { to: "/about", label: "About" },
-  { to: "/chat", label: "Digital Assistant", icon: MessageCircle },
+  { to: "/chat", label: "Ask Anna", icon: MessageCircle },
 ];
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [selectedLang, setSelectedLang] = useState("EN");
   const location = useLocation();
 
   return (
@@ -44,10 +57,23 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <button className="ml-2 flex items-center gap-1 rounded-md px-2 py-1.5 text-xs opacity-70 hover:opacity-100 transition-opacity">
-            <Globe className="h-3.5 w-3.5" />
-            EN
-          </button>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button className="ml-2 flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-xs font-medium opacity-80 hover:opacity-100 hover:bg-primary-foreground/10 transition-all">
+                <Globe className="h-3.5 w-3.5" />
+                {selectedLang}
+                <ChevronDown className="h-3 w-3" />
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" className="min-w-[160px]">
+              {languages.map((lang) => (
+                <DropdownMenuItem key={lang.code} onClick={() => setSelectedLang(lang.code)} className="flex items-center justify-between">
+                  <span>{lang.flag} {lang.label}</span>
+                  {selectedLang === lang.code && <span className="text-xs text-primary">✓</span>}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
         </nav>
 
         {/* Mobile toggle */}

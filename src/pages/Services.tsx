@@ -38,7 +38,7 @@ export default function Services() {
       <div className="container py-12">
         <h1 className="font-display text-4xl font-bold mb-2">City Services</h1>
         <p className="text-muted-foreground mb-10 max-w-xl">
-          Browse services by category. For personalized guidance, try our Digital Assistant.
+          Browse services by category. For personalized guidance, ask Anna.
         </p>
 
         <div className="space-y-12">

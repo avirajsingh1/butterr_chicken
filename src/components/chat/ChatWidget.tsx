@@ -57,8 +57,8 @@ export default function ChatWidget() {
           >
             <div className="flex items-center justify-between bg-primary px-4 py-3 text-primary-foreground">
               <div>
-                <p className="font-semibold text-sm">Dortmund Digital Assistant</p>
-                <p className="text-xs opacity-70">Ask me anything about the city</p>
+                <p className="font-semibold text-sm">Anna — City Assistant</p>
+                <p className="text-xs opacity-70">Ask me anything about Dortmund</p>
               </div>
               <div className="flex items-center gap-1">
                 <Button variant="ghost" size="icon" className="h-8 w-8 text-primary-foreground hover:bg-primary-foreground/10" onClick={reset}>

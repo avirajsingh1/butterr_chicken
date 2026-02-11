@@ -32,8 +32,8 @@ export default function About() {
             <section>
               <h2 className="font-display text-2xl font-bold mb-3">Digital Transformation</h2>
               <p className="text-muted-foreground leading-relaxed">
-                As part of our commitment to digital innovation, we've introduced the Dortmund Digital Assistant — an AI-powered 
-                tool to help residents find information about city services, immigration procedures, events, and daily life in 
+                As part of our commitment to digital innovation, we've introduced Anna — an AI-powered 
+                assistant to help residents find information about city services, immigration procedures, events, and daily life in 
                 Dortmund. Available 24/7 in multiple languages.
               </p>
             </section>
