@@ -72,10 +72,12 @@ export default function ChatWidget() {
           >
             {/* Header */}
             <div className="flex items-center justify-between bg-gradient-to-r from-blue-600 to-indigo-600 px-4 py-3 text-white">
-              <div className="flex items-center gap-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white/20">
-                  <Sparkles className="h-4 w-4" />
-                </div>
+              <div className="flex items-center gap-3">
+                <img
+                  src={AVATAR_URL}
+                  alt="Anna"
+                  className="h-9 w-9 rounded-full border-2 border-white/40 object-cover"
+                />
                 <div>
                   <p className="font-semibold text-sm">Anna — AI City Assistant</p>
                   <p className="text-xs opacity-80">Powered by AI • Speak or type</p>
