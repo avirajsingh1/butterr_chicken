@@ -81,6 +81,7 @@ export default function ChatWidget() {
                 <div>
                   <p className="font-semibold text-sm">Anna — AI City Assistant</p>
                   <p className="text-xs opacity-80">Powered by AI • Speak or type</p>
+                  <p className="text-[10px] opacity-60">⚠ Voice agent availability may be limited due to token usage</p>
                 </div>
               </div>
               <Button
