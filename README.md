@@ -1,7 +1,9 @@
 # Welcome to the Butter Chicken! 
 
 Anna — Virtual Assistant for Public-Sector Services
-Overview
+**URL**: https://butterrchicken.lovable.app/
+
+## Project info
 
 Anna is a scalable, multilingual virtual assistant designed for government and public-sector service delivery. The system provides continuous conversational support to residents seeking information on visas, regulations, and municipal services. Its primary objectives are to improve service accessibility, reduce response latency, and decrease operational workload for public institutions.
 
@@ -27,24 +29,21 @@ Web-based interface for user access and interaction.
 Scalability and Deployment Layer
 Supports rapid deployment and horizontal scaling to accommodate varying usage demands.
 
+## What technologies are used for this project?
+
 Technology Stack
 Current Implementation
 
 Voice Agent: Anam
-
 Web Frontend: Lovable
 
 Hackathon Prototype
-
 Speech and Conversational AI: ElevenLabs (real-time dialogue processing)
-
 Avatar and Assistant Infrastructure: Anam
-
 Deployment and Prototyping: bolt.new
-
 Collaborative Design and System Mapping: Miro
 
-Key Capabilities
+##Key Capabilities
 
 Multilingual conversational support
 
@@ -62,9 +61,10 @@ Municipal regulations and procedures
 
 Public-sector knowledge dissemination and citizen guidance
 
+
 Project Status
 
-This repository represents the post-hackathon evolution of the Anna system. Ongoing development focuses on improving robustness, extensibility, and readiness for real-world public-sector deployment.
+This repository represents the post-hackathon of the Anna system. It offers a scope for ongoing development focuses on improving robustness, extensibility, and readiness for real-world public-sector deployment.
 
 
 
@@ -121,7 +121,7 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+
 
 This project is built with:
 
