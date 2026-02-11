@@ -55,9 +55,9 @@ export default function Index() {
 
       {/* Disclaimer */}
       <div className="container pt-16 pb-2">
-        <div className="rounded-lg border border-accent bg-accent/10 px-5 py-4 text-center">
-          <p className="text-sm font-semibold text-accent-foreground">⚠️ Disclaimer</p>
-          <p className="mt-1 text-xs text-muted-foreground">
+        <div className="rounded-lg border-2 border-destructive bg-destructive/10 px-5 py-4 text-center">
+          <p className="text-sm font-bold text-destructive">⚠️ Disclaimer</p>
+          <p className="mt-1 text-xs text-foreground">
             This is <strong>not</strong> an official city services website. It is a mockup created for a hackathon challenge to demonstrate AI-powered city services.
           </p>
         </div>
