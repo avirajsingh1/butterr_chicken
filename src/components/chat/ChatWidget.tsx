@@ -57,7 +57,7 @@ export default function ChatWidget() {
 
             {/* Anam iframe */}
             <iframe
-              src={`https://lab.anam.ai/share/${ANAM_SHARE_TOKEN}`}
+              src={`https://lab.anam.ai/frame/${ANAM_SHARE_TOKEN}`}
               className="flex-1 border-0"
               allow="microphone; camera"
               title="Anna — Rheinstadt City Assistant"

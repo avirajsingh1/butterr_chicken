@@ -17,7 +17,7 @@ export default function ChatPage() {
         {/* Anam Embed */}
         <div className="flex-1 py-4">
           <iframe
-            src={`https://lab.anam.ai/share/${ANAM_SHARE_TOKEN}`}
+            src={`https://lab.anam.ai/frame/${ANAM_SHARE_TOKEN}`}
             className="h-full w-full rounded-xl border-0 shadow-lg"
             allow="microphone; camera"
             title="Anna — Rheinstadt City Assistant"
